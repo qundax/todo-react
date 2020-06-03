@@ -1,14 +1,13 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 
-import ToDoList from './components/todolist/todolist';
+import ToDoApp from './components/todoapp/todoapp';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        Welcome.
-        <ToDoList />
+        <ToDoApp />
       </div>
     );
   }
